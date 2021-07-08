@@ -2,7 +2,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import LogoImg from "../../../assets/images/logo.jpeg";
 const LogoContainer = styled.div`
-  ${tw` flex items-center `}
+  ${tw` flex items-center m-2`}
 `;
 const LogoText = styled.div`
   ${tw` text-xl md:text-2xl font-bold text-black m-1 `}
