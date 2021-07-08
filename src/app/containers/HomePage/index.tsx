@@ -1,5 +1,7 @@
+import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import { Marginer } from "../../components/margin";
 import { NavBar } from "../../components/navbar";
 import { TopSection } from "./topSection";
 const TopContainer = styled.div`
@@ -9,6 +11,7 @@ export function HomePage() {
   return (
     <TopContainer>
       <NavBar />
+      <Marginer direction="vertical" margin="3em" />
       <TopSection />
     </TopContainer>
   );
