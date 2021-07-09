@@ -3,6 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { Marginer } from "../../components/margin";
 import { NavBar } from "../../components/navbar";
+import { TopCar } from "./topCar";
 import { TopSection } from "./topSection";
 import { WorkingSteps } from "./workingSteps";
 const TopContainer = styled.div`
@@ -16,6 +17,8 @@ export function HomePage() {
       <TopSection />
       <Marginer direction="vertical" margin="8em" />
       <WorkingSteps />
+      <Marginer direction="vertical" margin="8em" />
+      <TopCar />
     </TopContainer>
   );
 }
