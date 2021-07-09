@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import { Footer } from "../../components/footer";
 import { Marginer } from "../../components/margin";
 import { NavBar } from "../../components/navbar";
 import { TopCar } from "./topCar";
@@ -19,6 +20,7 @@ export function HomePage() {
       <WorkingSteps />
       <Marginer direction="vertical" margin="8em" />
       <TopCar />
+      <Footer />
     </TopContainer>
   );
 }
